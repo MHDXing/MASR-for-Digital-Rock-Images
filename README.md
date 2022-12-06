@@ -47,6 +47,7 @@ bash test_models_pc.sh
 4. You can find the enlarged images in ```./results``` folder.
 
 ### Pretrained models
+[MASR Models](https://drive.google.com/file/d/1N2WcFEchQbUNNB6PbmpMMsTOor4nt0jr/view?usp=sharing)
 <!-- 1. [MASR Models](https://drive.google.com/file/d/18Bg1B5XvksMNsM1KXoPegsOhIbP6WnC4/view?usp=sharing)
 2. [EDSR Models](https://drive.google.com/file/d/1GGcnUCGaBWStxh-78PnDIlaCfPMfATaG/view?usp=sharing)
 3. [RCAN Models](https://drive.google.com/file/d/1VhppmVr159dlXzbVPh0zDcVGBblj2k0j/view?usp=sharing)
