@@ -1,0 +1,1 @@
+Put the training set, validation set and test set into folders \train, \validation and \test  respectively.
