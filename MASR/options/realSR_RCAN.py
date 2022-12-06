@@ -10,16 +10,16 @@ def parse_config(local_test=True):
     parser = argparse.ArgumentParser()
 
     # Data Preparation
-    parser.add_argument('--dataroot', type=str, default='../../3CDC/CDC/unknown/train')
-    parser.add_argument('--test_dataroot', type=str, default='../../3CDC/CDC/unknown/3D_val')  # little_
+    parser.add_argument('--dataroot', type=str, default='unknown/train')
+    parser.add_argument('--test_dataroot', type=str, default='unknown/validation')  # little_
     parser.add_argument('--batch_size', type=int, default=16)
-    parser.add_argument('--size', type=int, default=25, help='Size of low resolution image')  # 12
+    parser.add_argument('--size', type=int, default=12, help='Size of low resolution image')
     parser.add_argument('--bic', type=bool, default=False, help='')
     parser.add_argument('--rgb_range', type=float, default=255., help='255 EDSR and RCAN, 1 for the rest')
     parser.add_argument('--no_HR', type=bool, default=False, help='Whether these are HR images in testset or not')
 
     ## Train Settings
-    parser.add_argument('--exp_name', type=str, default='rcan_3Dx4', help='')
+    parser.add_argument('--exp_name', type=str, default='rcan_x4', help='')
     parser.add_argument('--generatorLR', type=float, default=1e-4, help='learning rate for SR generator')
     parser.add_argument('--warm_up', type=float, default=0, help='learning rate warm up')  # 0
     parser.add_argument('--decay_step', type=list, default=[160, 225, 275], help='')  # [160, 225, 275]  [160, 200, 230]

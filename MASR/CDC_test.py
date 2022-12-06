@@ -44,7 +44,7 @@ use_cuda = True
 
 parser = argparse.ArgumentParser()
 ## Test Dataset
-parser.add_argument('--test_dataroot', type=str, default='3Dvalid')  # test  coal/sandstone/carbonate
+parser.add_argument('--test_dataroot', type=str, default='unknown/test')
 parser.add_argument('--no_sr', type=bool, default=True)  # if bicubic False; else True
 
 # Test Options

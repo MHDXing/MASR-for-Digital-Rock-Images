@@ -10,8 +10,8 @@ def parse_config(local_test=True):
     parser = argparse.ArgumentParser()
 
     # Data Preparation
-    parser.add_argument('--dataroot', type=str, default='../../3CDC/CDC/unknown/train')  # carbonate/
-    parser.add_argument('--test_dataroot', type=str, default='../../3CDC/CDC/unknown/time')  # time|little_validation
+    parser.add_argument('--dataroot', type=str, default='unknown/train')  # carbonate/
+    parser.add_argument('--test_dataroot', type=str, default='unknown/validation')  # time|little_validation
     parser.add_argument('--batch_size', type=int, default=32)
     parser.add_argument('--size', type=int, default=48, help='Size of low resolution image')  # 48
     parser.add_argument('--bic', type=bool, default=False, help='')
