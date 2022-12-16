@@ -1,6 +1,6 @@
 # Multi Attention Super-Resolution Neural Network (MASR)
 
-This repository is an official PyTorch implementation of the paper **"Multi Attention Neural Network for Digital Rock Images Super-Resolution
+This repository is an official PyTorch implementation of the paper **"Digital rock resolution enhancement and detail recovery with multi attention neural network
 "**
 
 The source code is primarily derived from [EDSR](https://github.com/sanghyun-son/EDSR-PyTorch) and [CDCSR](https://github.com/xiezw5/Component-Divide-and-Conquer-for-Real-World-Image-Super-Resolution).
